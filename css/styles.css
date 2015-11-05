@@ -1,0 +1,33 @@
+/* My Styling Here */
+
+
+.main {
+    width: 30%;
+    margin: 0 auto;
+}
+/*Tab Content*/
+.tabs li {
+    list-style: none;
+    display: inline-block;
+    color: blue;
+    padding: 2em;
+    background: orange;
+}
+
+/*Tab Hover*/
+.tabs .li:hover {
+    background: grey;
+    transition: 1s;
+}
+
+/*Tab Content*/
+#tab-1, #tab-2, #tab-3, #tab-4, #tab-5 {
+    border: black solid;
+    color: blue;
+    margin: 10px;
+    min-height: 400px;
+    padding: 2em;
+    width: 100%;
+    
+}
+
